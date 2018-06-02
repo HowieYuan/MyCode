@@ -7,7 +7,7 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
 @SpringBootApplication
-@MapperScan(value = "com.howie.publicPackage.mapper")
+@MapperScan(value = {"com.howie.publicPackage.mapper", "com.howie.tnsactional"})
 public class SpringbootApplication extends SpringBootServletInitializer {
     public static void main(String[] args) {
         SpringApplication.run(SpringbootApplication.class, args);

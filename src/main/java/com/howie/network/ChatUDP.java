@@ -11,6 +11,8 @@ import java.net.InetAddress;
  *
  * @Author yuanhaoyue swithaoy@gmail.com
  * @Description socket 聊天: 使用 UDP 协议（DatagramSocket）
+ *              Socket是一种基于TCP的套接字，这种方法的使用每个连接需要花费一定的时间，要减少这种开销，
+ *              于是有了第二种套接字：自寻址套接字，它是使用UDP发送寻址信息，不同的是他可以发送多IP信息包。
  * @Date 2018-05-03
  * @Time 22:35
  */

@@ -52,6 +52,8 @@ public class ExecutorTest {
             result = "超时了，这是默认值";
         }
         System.out.println(result);
+        System.gc();
+        executorService.shutdown();
     }
 
     /**
